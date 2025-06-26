@@ -181,10 +181,12 @@ while True:
             elif opcao == "2":
                 CadastrarConta(usuario = usuarios[cpf_input], conta_numero = total_numero_de_contas)
 
+            # =================== Opção 1.3 ===================
+
             elif opcao == "3":
                 listar_contas(usuarios[cpf_input]['contas'])
 
-            # =================== Opção 1.3 ===================
+            # =================== Opção 1.4 ===================
 
             else:
                 print("\nErro! Selecione uma opção existente.")
@@ -203,7 +205,7 @@ while True:
         print("\nVolte sempre!")
         break; 
 
-    # =================== Opção 3 ===================
+    # =================== Opção 4 ===================
 
     else:
         print("\nErro! Selecione uma opção existente.")
